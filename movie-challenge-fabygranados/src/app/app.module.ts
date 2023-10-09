@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MiComponente } from './components/mi-componente/mi-componente';
 import { PrincipalComponent } from './components/principal/principal.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ToolbarComponent } from './components/toolbar/toolbar.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { PrincipalComponent } from './components/principal/principal.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    ToolbarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -48,7 +48,5 @@ export class MiComponente {
         ];
         this.year = new Date().getFullYear();
     
-        console.log('mi-componente cargado!');
-        console.log(this.movies);
     }
 }
